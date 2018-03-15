@@ -5,9 +5,14 @@ An easy way to sketch images.
 
 1. Read image as `img1`, and copy it as `img2`.
 2. Invert the color of `img2`.
-3. Use Gaussian Blur to process `img2`, the **kernel size** and **standard deviation** will affect the result.
+3. Use Gaussian Blur to process `img2`.
 4. Blend `img1` and `img2` by using **Color Dodge**.
-5. Using Non-local Means Denoising algorithm to denoise.
+5. Using **Non-local Means Denoising** algorithm to denoise.
+
+## Prerequisites:
+
+- Python 3.6
+- OpenCV 3.4
 
 ## Function
 
