@@ -1,4 +1,4 @@
-# ImageSketched
+# ImageSketcher
 An easy way to sketch images.
 
 ## Algorithm
