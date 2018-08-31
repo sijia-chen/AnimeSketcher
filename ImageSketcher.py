@@ -16,7 +16,10 @@ def colorDodge(img, img2):
         for j in range(len(ret[0])):
             a = int(ret[i][j])
             b = int(img2[i][j])
-            ret[i][j] = np.uint8(min(255, (a << 8) / (255-b)))
+            if b == 255: 
+                ret[i][j] = np.unit8(255)
+            else:
+                ret[i][j] = np.uint8(min(255, (a << 8) / (255-b)))
     return ret
 
 def sketchImage(img, ksize = (7, 7), sigmaX = 2., sigmaY = 2., h = 30, templateWindowSize = 7, searchWindowSize = 21):
