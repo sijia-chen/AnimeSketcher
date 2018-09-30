@@ -8,7 +8,7 @@ An easy way to sketch anime images.
 
 ## Demo
 
-In Raw/Sobel/Erode order.
+In Raw/XDoG/Sobel/Erode order.
 
 ![](samples/K5.jpg)
 
