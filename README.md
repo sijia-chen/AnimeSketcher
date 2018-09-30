@@ -1,4 +1,4 @@
-# ImageSketcher
+# AnimeSketcher
 An easy way to sketch anime images.
 
 ## Prerequisites:
